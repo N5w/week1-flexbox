@@ -66,10 +66,7 @@ ul {
      padding-right: 10px;
      display: block;
      color: white;
-     font-size: 17px;
-     
-     
-   
+     font-size: 17px;  
      
  }
  li a:hover {
@@ -189,4 +186,167 @@ header h3 {
 }
 .partent {
      position: relative;
+}
+
+/* mobile first */
+
+@media(max-width:767px){ 
+
+    
+ nav {
+     background-color:  rgb(86, 164, 216);
+     display: inline-block;
+     flex-direction: row;
+ }
+
+ 
+   footer {
+          background-color: rgb(86, 164, 216); 
+
+          height: 100px;
+          width: 340px;
+   }
+
+    header {
+         background-color: rgb(86, 164, 216); 
+    }
+
+    
+ul {
+    list-style-type:none ;
+      margin-left: 10px;
+     padding-right: 5px;
+   
+}
+
+ li {
+     
+      display: inline;
+      
+     float: left;
+     border: #5e32a5 2px solid;
+        position: relative;
+    padding-left: 3px;
+      margin-right: 10px;
+ 
+ }
+
+  li a{
+     text-decoration: none;
+     padding-left: 5px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-right: 5px;
+     display: inline;
+     color: rgb(16, 26, 167);
+     font-size: 13px;  
+     
+ }
+
+ footer ul {
+    display: inline;
+    margin-left: 20px;
+ }
+
+  footer ul >li {
+     margin-top: 5px;
+    
+  }
+
+    footer p {
+
+  padding-top: 20px;
+  padding-left: 30px;
+   }
+
+     #identy{
+       margin-left:1px ;
+       background-color: rgb(86, 164, 216);
+       width: 400px;
+       padding: 15px;
+   }
+     #identy p::first-letter {
+       color: #0c0b0b;
+       font-size: 14px;
+      
+   }
+    #identy p { 
+       font-size: 14px;
+        text-align: center;
+        padding: 10px;
+   }
+
+   #background {
+    width: 150px;
+    height: 100px;
+   opacity: 0.8;
+
+/* display: block;   */
+
+}
+
+
+#work{
+    text-align: center;
+    background-color: rgb(86, 164, 216) ;
+    height: 180px;
+    width: 280px;
+    margin:  0  auto;
+
+    font: 14px red small-caption ;
+   
+}
+#work p {
+    color:  #593C4C;
+    font-weight: bolder;
+    font-style: italic;
+  
+     text-align: justify;
+     font-family: 'Josefin Sans', sans-serif;
+     padding: 10px;
+}
+
+
+
+header{
+    height: 100px;
+}
+header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: rgb(86, 164, 216);
+    border-radius: 50%;
+    float: right;
+    /* border: orchid 5px solid; */
+}
+
+header h3 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+   color: #593C4C;
+ font-family: 'Lobster', cursive;;
+   text-transform: capitalize;
+  margin-left: 70px;
+
+}
+
+#identy {
+    width: 300px;
+    margin-right: 10px;
+}
+
+/* .partent{
+    width: 200px;
+    height: 300px;
+} */
+h1{
+    font-size: 14px;
+}
+
+.center p {
+    font-size: 12px;
+}
+  
 }
